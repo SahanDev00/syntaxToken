@@ -11,3 +11,5 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+
+token address: 0xE46C8ca6D031F2Da5A8779673539968eFe1Ed1Dd

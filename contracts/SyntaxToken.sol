@@ -12,7 +12,7 @@ contract SyntaxToken is ERC20, ERC20Capped, ERC20Burnable {
 
     constructor(uint256 cap, uint256 reward) ERC20("SyntaxToken", "SXT") ERC20Capped(cap * (10 ** decimals())) {
         owner = payable(msg.sender);
-        _mint(owner, 70 * (10 ** decimals()));
+        _mint(owner, 700000 * (10 ** decimals()));
         blockReward = reward * (10 ** decimals());
     }
 
